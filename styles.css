@@ -174,7 +174,6 @@ footer{
         margin: 0 40px;
        
     }
-   
 }
 @media only screen and (max-width: 416px){
     .header{
@@ -196,7 +195,7 @@ footer{
     }
     .ignore{
         padding:0 10px;
-    
+
     }
     .question{
         padding:0 10px;
