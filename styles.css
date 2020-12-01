@@ -4,7 +4,12 @@ body{
     margin: 0 400px;
     
 }
-
+.logo-img{
+    width: 40%;
+    height: 50px;
+    object-fit: cover;
+    margin-left: -50px;
+}
 .header{
     background-color: #3e2bce ; 
     color:white;
@@ -49,6 +54,9 @@ body{
     padding:15px 25px;
     border-radius: 2px;
 }
+.launch-text{
+    margin-bottom: 40px !important;
+}
 .ignore{
     font-size: 12px;
     margin-top: 80px;
@@ -78,8 +86,8 @@ footer{
     text-decoration: none;
     font-size: 11px;
     color: #888 ;
-    
 }
+
 .copyright{
     text-align: center;
     font-size: 12px;
@@ -167,6 +175,11 @@ footer{
         margin: 0 80px;
        
     }
+    .logo-img{
+        width: 50%;
+       
+        margin-left: -50px;
+    }
    
 }
 @media only screen and (max-width: 480px){
@@ -174,6 +187,11 @@ footer{
         margin: 0 40px;
        
     }
+    .logo-img{
+        width: 60%;
+        margin-left: -70px;
+    }
+
 }
 @media only screen and (max-width: 416px){
     .header{
@@ -199,6 +217,13 @@ footer{
     }
     .question{
         padding:0 10px;
+    }
+    .logo-img{
+        width: 60%;
+        height: 60px;
+        object-fit: cover;
+        margin-left: -40px !important;
+        margin-top: -20px;
     }
 }
 @media only screen and (max-width: 380px){
