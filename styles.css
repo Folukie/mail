@@ -11,7 +11,7 @@ body{
     margin-left: -50px;
 }
 .header{
-    background-color: #3e2bce ; 
+    background-image: linear-gradient(to left,#3dd2aa, #3e2bce);
     color:white;
     height:100px;
     padding: 40px 80px 5px;
@@ -25,16 +25,14 @@ body{
 .content{
     background-color: white !important;
     margin-top: -25px ;
-    padding:40px 0 10px;
+    padding:40px 60px 10px;
 
 }
-.content-text{
-    padding:0 130px;
-}
+
 .content-1{
     font-weight: 800;
     font-size: 18px;
-    text-align: center;
+    text-decoration: underline;
 }
 .content-2{
     font-weight: 500;
@@ -43,7 +41,7 @@ body{
 .content-3{
     font-weight: 400;
     font-size: 15px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .content-btn{
     background-color: #3e2bce ; 
@@ -52,7 +50,7 @@ body{
     text-decoration: none;
     margin: 0 100px;
     padding:15px 25px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 .launch-text{
     margin-bottom: 40px !important;
@@ -61,14 +59,12 @@ body{
     font-size: 12px;
     margin-top: 80px;
     color: #888;
-    padding:0 100px;
 
 }
 .question{
-    padding:0 100px;
     font-size: 14px;
     color: #555;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .question-link{
     color: #3e2bce ;
